@@ -1,0 +1,33 @@
+column,description
+loan_id,Unique loan identifier
+borrower_id,Unique borrower identifier
+application_date,Loan application date
+branch,SACCO branch
+county,Borrower's county
+age,Borrower's age
+employment_type,Employment category
+monthly_income_kes,Monthly income in KES
+membership_years,Years as SACCO member
+savings_balance_kes,SACCO savings balance in KES
+loan_product,Loan product
+loan_amount_kes,Loan principal in KES
+loan_term_months,Loan term in months
+monthly_repayment_kes,Estimated monthly loan repayment in KES
+other_monthly_debt_kes,Other monthly debt obligations in KES
+debt_to_income_ratio,Total monthly debt burden divided by income
+loan_to_savings_ratio,Loan amount divided by savings balance
+previous_loans,Number of previous loans
+previous_defaults,Number of previous defaults
+previous_late_payments,Previous late-payment events
+avg_monthly_inflows_kes,Average monthly inflows in KES
+avg_monthly_outflows_kes,Average monthly outflows in KES
+mobile_money_active_months,Months with active mobile-money behaviour
+utility_payment_consistency,"Utility payment consistency, 0 to 1"
+income_consistency_score,"Income/inflow consistency, 0 to 1"
+days_overdue,Current days overdue
+late_payment_count_current,Late-payment events on current loan
+repayment_ratio,Proportion of scheduled repayment paid
+loan_status,Current loan status
+default,"Target: 1 default, 0 non-default"
+generated_default_probability,Synthetic probability used to generate target; not a real credit score
+risk_category,Synthetic risk category based on generated probability
